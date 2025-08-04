@@ -2,7 +2,7 @@ const form = document.getElementById('contact-form');
 const responseMsg = document.getElementById('response');
 
 // ✅ Make sure this is your actual Google Apps Script web app URL
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzbhEQtDNv69IQ5mfNZfmGgF-wUd_Hf0kmfdWwmx4v8gw-Xqb31-lKnXtfJucc7qxH6/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyTkFKkcLF7u01f_dM04Dxep8p0FdvVPQhSVxE8TcDGVs5L3BhIq2LKdIgUU0asASVm/exec';
 
 form.addEventListener('submit', e => {
   e.preventDefault();
@@ -26,3 +26,4 @@ form.addEventListener('submit', e => {
     responseMsg.textContent = 'Something went wrong.';
   });
 });
+
